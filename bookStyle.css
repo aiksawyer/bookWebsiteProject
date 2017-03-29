@@ -4,7 +4,20 @@
 h1{
 	font-family: 'Poiret One', cursive;
 	margin-left: 10px;
+	display: inline;
+}
+h3{
+	font-family: 'Poiret One', cursive;
+	color: grey;
+	font-size: 24px;
+}
+img{
+	margin: 10px;
+
 }
 p{
-	margin-left: 10px;
+	font-size: 18px;
+}
+.row{
+	margin-bottom: 20px;
 }
