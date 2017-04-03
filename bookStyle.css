@@ -5,7 +5,7 @@ h1{
 	font-family: 'Poiret One', cursive;
 	margin-left: 10px;
 	display: inline;
-	font-size: 69px
+	font-size: 64px
 }
 h3{
 	font-family: 'Poiret One', cursive;
@@ -27,7 +27,7 @@ h4{
 	text-align: center;
 }
 
-nav
+#nav
 {
 	position: fixed;
 	left: -10em;
@@ -40,11 +40,11 @@ nav
 	cursor: pointer;
 }
 
-nav h6{
+#nav h6{
 	font-family: 'Poiret One', cursive;
 	color: #303030;
 }
-nav:after
+#nav:after
 {
 	position: fixed;
 	content: ' ';
@@ -57,7 +57,7 @@ nav:after
 	
 }
 
-nav ul
+#nav ul
 {	
 	font-family: 'Poiret One', cursive;
 	width: 6em;
@@ -66,7 +66,7 @@ nav ul
 	padding-left: 5em;
 }
 
-nav a:link, nav a:visited
+#nav a:link, #nav a:visited
 {
 	font-family: 'Poiret One', cursive;
 	width: 100%;
@@ -79,17 +79,26 @@ nav a:link, nav a:visited
 
 
 /* hovering */
-nav, nav *
+#nav, #nav *
 {
 	-webkit-transition: all 600ms ease;
 	-moz-transition: all 600ms ease;
 	-ms-transition: all 600ms ease;
-	-o-transition: all 600ms ease;
+	-o-transition: all 600ms ease;h3
 	transition: all 600ms ease;
 }
 
-nav:hover
+#nav:hover
 {
 	left: -40px;
 }
 
+
+
+#cover{
+	float: left;
+}
+
+h3{
+	padding-left: 3.7em;
+}
